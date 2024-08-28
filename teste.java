@@ -1,10 +1,13 @@
 import java.util.Scanner;
 
-public class Main
-{
+public class teste {
+
+	static Scanner s = new Scanner(System.in);
+
 	public static void main(String[] args) {
-	    Scanner s = new Scanner(System.in);
-	    
-	    System.out.println("Prova em Dupla");
+
+		String texto = s.next();
+
+		System.out.println(texto);
 	}
 }
